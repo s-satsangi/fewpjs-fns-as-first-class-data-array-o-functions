@@ -50,7 +50,7 @@ const routine = [
 
 // Lastly, create the function called exerciseDog that will take in two arguments:
 function exerciseDog(dogName, dogBreed) {
-    return routine.map(action => action(dogName, dogBreed))
+  return routine.map((action) => action(dogName, dogBreed));
 }
 
 // dogName
